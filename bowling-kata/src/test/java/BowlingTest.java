@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class BowlingTest {
 
     @Test
-    public void when_all_rools_are_zero_then_score_is_zero(){
+    public void when_all_rolls_are_zero_then_score_is_zero(){
         Bowling bowling = new Bowling();
         for (int i = 0; i < 20; i++) {
             bowling.roll(0);
@@ -14,7 +14,7 @@ public class BowlingTest {
     }
 
     @Test
-    public void when_all_rools_are_one_then_score_is_twenty(){
+    public void when_all_rolls_are_one_then_score_is_twenty(){
         Bowling bowling = new Bowling();
         for (int i = 0; i < 20; i++) {
             bowling.roll(1);
